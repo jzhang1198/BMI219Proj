@@ -1,0 +1,17 @@
+name: bmi219
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - _pytorch_select=0.1=cpu_0
+  - matplotlib=3.5.1=py39hecd8cb5_1
+  - matplotlib-base=3.5.1=py39hfb0c5b7_1
+  - pandas=1.4.2=py39he9d5cce_0
+  - pip=21.2.4=py39hecd8cb5_0
+  - python=3.9.12=hdfd78df_0
+  - pytorch=1.7.1=cpu_py39h7e2095a_0
+  - torchvision=0.8.2=cpu_py39hde629fd_0
+  - pip:
+    - numpy==1.22.3
+    - ray==1.12.1
+prefix: /opt/anaconda3/envs/bmi219
